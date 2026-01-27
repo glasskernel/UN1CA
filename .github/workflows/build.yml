@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [gta9p]
+        target: [gta9pwifi]
 
     steps:
       - name: Checkout repo
